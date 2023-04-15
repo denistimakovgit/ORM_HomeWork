@@ -1,0 +1,108 @@
+{"publisher":
+  [
+    {
+      "publisher_id": 1,
+      "name":"Алесандр Пушкин"
+    },
+    {
+      "publisher_id": 2,
+      "name":"Алесандр Грибоедов"
+    }
+  ],
+  "book":
+    [
+      {
+        "book_id": 1,
+        "title": "Капитанская дочка",
+        "publisher_id": 1
+      },
+      {
+        "book_id": 2,
+        "title": "Руслан и Людмила",
+        "publisher_id": 1
+      },
+      {
+        "book_id": 3,
+        "title": "Евгений Онегин",
+        "publisher_id": 1
+      },
+      {
+        "book_id": 4,
+        "title": "Горе от ума",
+        "publisher_id": 2
+      }
+  ],
+  "shop":
+          [
+            {
+              "shop_id": 1,
+              "shop_name": "Буквоед"
+            },
+            {
+              "shop_id": 2,
+              "shop_name": "Лабиринт"
+            },
+            {
+              "shop_id": 3,
+              "shop_name": "Книжный дом"
+            }
+          ],
+  "stock":
+          [
+            {
+              "stock_id": 1,
+              "book_id": 1,
+              "shop_id": 1,
+              "count": 100
+            },
+            {
+              "stock_id": 2,
+              "book_id": 2,
+              "shop_id": 1,
+              "count": 80
+            },
+            {
+              "stock_id": 3,
+              "book_id": 3,
+              "shop_id": 2,
+              "count": 85
+            },
+            {
+              "stock_id": 4,
+              "book_id": 4,
+              "shop_id": 3,
+              "count": 23
+            }
+          ],
+  "sale":
+          [
+            {
+              "sale_id": 1,
+              "price": 200,
+              "sale_date": "2023-04-13",
+              "stock_id": 1,
+              "count": 2
+            },
+            {
+              "sale_id": 2,
+              "price": 250,
+              "sale_date": "2023-04-14",
+              "stock_id": 2,
+              "count": 1
+            },
+            {
+              "sale_id": 3,
+              "price": 375,
+              "sale_date": "2023-04-14",
+              "stock_id": 4,
+              "count": 3
+            },
+            {
+              "sale_id": 4,
+              "price": 400,
+              "sale_date": "2023-04-14",
+              "stock_id": 3,
+              "count": 1
+            }
+          ]
+}
